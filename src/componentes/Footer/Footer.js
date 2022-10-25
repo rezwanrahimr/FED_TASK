@@ -80,6 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <p>All rights reserved@jadoo.co</p>
       </footer>
     </div>
   );
