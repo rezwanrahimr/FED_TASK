@@ -5,7 +5,7 @@ import BtnImg from "../../images/rsz_11play_button-removebg-preview.png";
 
 const Banner = () => {
   return (
-    <div className="row">
+    <div className="row banner">
       <div id="header-content">
         <div className="col-5 content">
           <h6>BEST DESTINATIONS AROUND THE WORLD</h6>
