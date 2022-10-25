@@ -3,6 +3,7 @@ import Main from "./style/Main.scss";
 import Logo from "../../images/Jadoo..png";
 import google from "../../images/google.png";
 import apple from "../../images/asdsdsad2.png";
+import footerIcon from "../../images/dffff.png";
 
 const Footer = () => {
   return (
@@ -81,6 +82,7 @@ const Footer = () => {
           </div>
         </div>
         <p>All rights reserved@jadoo.co</p>
+        {/* <img id="footerIcon" src={footerIcon} alt="" width="100%" /> */}
       </footer>
     </div>
   );

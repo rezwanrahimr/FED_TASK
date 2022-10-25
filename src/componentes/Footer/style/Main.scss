@@ -15,7 +15,9 @@ ul {
   list-style: none;
 }
 .footer {
+  margin-top: 70px;
   padding: 70px 0;
+  position: relative;
   p {
     margin-top: 30px;
 
@@ -85,6 +87,11 @@ ul {
   transition: all 0.5s ease;
 
   box-shadow: 5px 5px 5px #e6e0e0;
+}
+#footerIcon {
+  position: absolute;
+  right: 0%;
+  width: 40%;
 }
 
 /*responsive*/
