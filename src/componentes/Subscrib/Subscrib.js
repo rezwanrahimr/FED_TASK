@@ -1,10 +1,11 @@
 import React from "react";
 import Main from "./style/Main.scss";
 import subImg from "../../images/Group 77.png";
+import subImg2 from "../../images/Group 5.png";
 
 const Subscrib = () => {
   return (
-    <div>
+    <div id="subscribe-section">
       <div id="subscibe">
         <p>
           Subscribe to get information, latest news and other <br /> interesting
@@ -17,6 +18,7 @@ const Subscrib = () => {
           </div>
         </div>
         <img id="subImg" src={subImg} alt="" />
+        <img id="subImg2" src={subImg2} alt="" />
       </div>
     </div>
   );
