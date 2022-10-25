@@ -27,9 +27,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="col-5 header-img">
-          <img src={Img} alt="" />
-        </div>
+        <div className="col-5 header-img">{/* <img src={Img} alt="" /> */}</div>
       </div>
     </div>
   );
