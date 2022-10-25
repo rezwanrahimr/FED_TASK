@@ -1,6 +1,8 @@
 import React from "react";
 import Main from "./style/Main.scss";
 import Logo from "../../images/Jadoo..png";
+import google from "../../images/google.png";
+import apple from "../../images/asdsdsad2.png";
 
 const Footer = () => {
   return (
@@ -67,6 +69,14 @@ const Footer = () => {
                 </a>
               </div>
               <p>Discover our app</p>
+              <div id="store">
+                <div>
+                  <img src={google} width="90%" alt="" />
+                </div>
+                <div>
+                  <img src={apple} width="60%" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
