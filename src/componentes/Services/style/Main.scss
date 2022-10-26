@@ -1,0 +1,35 @@
+.service-card {
+  width: 267px;
+  height: 314px;
+  padding: 30px;
+
+  #img-div {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    p {
+      margin-top: 10px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      /* identical to box height */
+
+      color: #5e6282;
+    }
+    h4 {
+      margin-top: 10px;
+      text-align: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: #1e1d4c;
+    }
+  }
+}
