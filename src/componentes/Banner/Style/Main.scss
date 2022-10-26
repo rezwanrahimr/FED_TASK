@@ -36,12 +36,11 @@
 }
 
 .banner {
-  background-image: url("../../../images/Decore.png");
-  background-repeat: no-repeat;
-  background-position: right top;
+  padding: 0px 60px;
+  overflow: hidden;
   #header-content {
     display: flex;
-    align-content: center;
+    align-items: center;
   }
 
   #header-content {
@@ -49,25 +48,49 @@
   }
   .content {
     text-align: left;
+    position: relative;
+    #text-img img {
+      height: 10px;
+      width: 200px;
+    }
+    #text-img {
+      position: absolute;
+      top: 80px;
+      left: 200px;
+      z-index: -1;
+    }
 
     h6 {
       font-family: "Poppins";
       font-style: normal;
       font-weight: 700;
-      font-size: 20px;
+      font-size: 15px;
       color: #df6951;
     }
     h1 {
       font-family: "Inter";
       font-style: normal;
       font-weight: 700;
-      font-size: 64px;
+      font-size: 74px;
+      line-height: 72px;
       color: #181e4b;
+    }
+    p {
+      margin-top: 20px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      color: #5e6282;
     }
   }
 }
 
 #button-group {
+  margin-top: 30px;
   display: flex;
   align-items: center;
   div {

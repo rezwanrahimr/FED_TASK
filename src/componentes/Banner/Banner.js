@@ -2,6 +2,7 @@ import React from "react";
 import Main from "./Style/Main.scss";
 import Img from "../../images/Traveller 1 (1).png";
 import BtnImg from "../../images/rsz_11play_button-removebg-preview.png";
+import textImg from "../../images/Decoredf.png";
 
 const Banner = () => {
   return (
@@ -26,8 +27,13 @@ const Banner = () => {
               </p>
             </div>
           </div>
+          <div id="text-img">
+            <img src={textImg} alt="" />
+          </div>
         </div>
-        <div className="col-5 header-img">{/* <img src={Img} alt="" /> */}</div>
+        <div className="col-5 header-img">
+          <img src={Img} alt="" />
+        </div>
       </div>
     </div>
   );

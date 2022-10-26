@@ -6,6 +6,7 @@ import serviceLogo3 from "../../images/image 25.png";
 import serviceLogo4 from "../../images/Group 51.png";
 import serviceLogo5 from "../../images/Rectangle 159.png";
 import serviceLogo6 from "../../images/Rectangle 157.png";
+import serviceLogo7 from "../../images/Group 4.png";
 
 const Services = () => {
   return (
@@ -58,6 +59,9 @@ const Services = () => {
             <p>We deliver outsourcedaviation services formilitary customers</p>
           </div>
         </div>
+      </div>
+      <div id="logo-6">
+        <img src={serviceLogo7} alt="" />
       </div>
     </div>
   );
