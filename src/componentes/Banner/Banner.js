@@ -1,7 +1,6 @@
 import React from "react";
 import Main from "./Style/Main.scss";
 import Img from "../../images/Traveller 1 (1).png";
-import BtnImg from "../../images/rsz_11play_button-removebg-preview.png";
 import textImg from "../../images/Decoredf.png";
 import groundImg from "../../images/Group.png";
 import groundImg1 from "../../images/plane.png";

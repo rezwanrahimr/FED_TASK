@@ -112,8 +112,6 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 24px;
-      /* identical to box height */
-
       color: #5e6282;
     }
   }
@@ -166,10 +164,7 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 26px;
-  /* identical to box height */
-
   color: #686d77;
-
   margin-left: 10px;
 }
 .circle {
@@ -182,4 +177,11 @@
 #play-btn {
   align-content: center;
   justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    width: 100%;
+    overflow: hidden;
+  }
 }

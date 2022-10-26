@@ -27,18 +27,12 @@
     justify-content: space-between;
   }
   .card {
-    /* Add shadows to create the "card" effect */
     position: relative;
 
     width: 315px;
     height: 457px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-
-    /* 5px rounded corners */
-    /* Add some padding inside the card container */
-
-    /* Add rounded corners to the top left and the top right corner of the image */
     #imgg {
       position: absolute;
       top: 80px;
@@ -59,8 +53,6 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        /* identical to box height */
-
         color: #5e6282;
         i {
           margin-right: 10px;
@@ -75,8 +67,6 @@
           font-weight: 500;
           font-size: 18px;
           line-height: 27px;
-          /* identical to box height */
-
           color: #5e6282;
         }
         #value {
@@ -85,15 +75,11 @@
           font-weight: 500;
           font-size: 18px;
           line-height: 27px;
-          /* identical to box height */
-
           color: #5e6282;
         }
       }
     }
   }
-
-  /* On mouse-over, add a deeper shadow */
 }
 
 @media (max-width: 768px) {
