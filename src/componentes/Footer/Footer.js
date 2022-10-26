@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
         </div>
         <p>All rights reserved@jadoo.co</p>
-        {/* <img id="footerIcon" src={footerIcon} alt="" width="100%" /> */}
+        <img id="footerIcon" src={footerIcon} alt="" />
       </footer>
     </div>
   );

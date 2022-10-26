@@ -23,7 +23,9 @@ const TopSelling = () => {
                 <small id="value"> $5.42k</small>
               </div>
             </div>
-            <p>10 Days Trip</p>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i> 10 Days Trip
+            </p>
           </div>
         </div>
         <div class="card">
@@ -37,7 +39,9 @@ const TopSelling = () => {
                 <small id="value">$4.2k</small>
               </div>
             </div>
-            <p>12 Days Trip</p>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i> 12 Days Trip
+            </p>
           </div>
         </div>
         <div class="card">
@@ -51,7 +55,9 @@ const TopSelling = () => {
                 <small id="value"> $15k</small>
               </div>
             </div>
-            <p>28 Days Trip</p>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i> 28 Days Trip
+            </p>
           </div>
           <div id="imgg">
             <img src={img4} alt="" />

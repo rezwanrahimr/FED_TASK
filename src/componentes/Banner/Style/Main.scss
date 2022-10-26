@@ -158,14 +158,34 @@
   margin-bottom: 20px;
   margin-left: 15px;
 }
+#playDemoBtn {
+  border: none;
+  background-color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  /* identical to box height */
 
+  color: #686d77;
+
+  margin-left: 10px;
+}
 .circle {
   width: 52px;
   height: 52px;
   background-color: #df6951;
   border-radius: 50%;
+  margin-left: 30px;
 }
 #play-btn {
   align-content: center;
   justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .col-5 {
+    width: 100%;
+  }
 }

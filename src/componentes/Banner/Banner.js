@@ -27,7 +27,9 @@ const Banner = () => {
               <div className="circle">
                 <p className="triangle-left"></p>
               </div>
-              <div></div>
+              <span>
+                <button id="playDemoBtn">Play Demo</button>
+              </span>
             </div>
           </div>
           <div id="text-img">

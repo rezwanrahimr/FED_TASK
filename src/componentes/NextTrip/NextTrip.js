@@ -89,9 +89,9 @@ const NextTrip = () => {
               <h6>Ongoin</h6>
               <h4>Trip to </h4>
               <p>40%</p>
-              <h5>
-                <span id="spann"></span>
-              </h5>
+              <div>
+                <p></p>
+              </div>
             </div>
           </div>
           <div id="card-background">
