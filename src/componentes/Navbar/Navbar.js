@@ -16,8 +16,12 @@ const Navbar = () => {
         <a href="/Flights">Flights</a>
         <a href="/Bookings">Bookings</a>
         <a href="/Login">Login</a>
-        <a href="/SignUp">Sign up</a>
-        <a href="/">EN</a>
+        <a href="/SignUp" id="signUp">
+          Sign up
+        </a>
+        <a href="/">
+          <i class="fa-solid fa-angle-down"></i> EN
+        </a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
