@@ -1,7 +1,41 @@
+#services {
+  margin: 120px 0px;
+  padding: 0px 80px;
+  h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #5e6282;
+    text-align: center;
+  }
+  h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #14183e;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+}
+
 .service-card {
   width: 267px;
   height: 314px;
   padding: 30px;
+  position: relative;
+  #logo3 {
+    position: absolute;
+    right: 0%;
+    top: -20px;
+  }
 
   #img-div {
     display: flex;
@@ -32,4 +66,18 @@
       color: #1e1d4c;
     }
   }
+}
+#card-group {
+  display: flex;
+}
+
+.card-2 {
+  position: relative;
+  box-shadow: 0px 5px 5px 5px rgb(233, 226, 226);
+  border-radius: 15px;
+}
+#card-2D {
+  position: absolute;
+  left: -30px;
+  bottom: -40px;
 }

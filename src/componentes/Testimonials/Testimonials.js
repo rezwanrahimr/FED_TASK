@@ -17,7 +17,7 @@ const Testimonials = () => {
           <div id="dot3"></div>
         </div>
       </div>
-      <div className="col-5">
+      <div className="col-5" id="exam">
         <div id="review">
           <p>
             “On the Windows talking painted pasture yet its express parties use.

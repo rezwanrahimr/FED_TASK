@@ -60,11 +60,11 @@
 #review {
   border-radius: 15px;
   position: relative;
-  z-index: 2;
   width: 504px;
   height: 245px;
   box-shadow: 5px 5px 5px #e6e0e0;
   padding: 30px;
+  background-color: white;
   #image {
     position: absolute;
     left: -15px;
@@ -121,9 +121,8 @@
 #review1 {
   border-radius: 15px;
   right: -60px;
-
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   width: 504px;
   height: 200px;
   background-color: #f9f9f9;
@@ -178,3 +177,7 @@
     border-radius: 50%;
   }
 }
+
+// #exam {
+//   z-index: 100;
+// }
