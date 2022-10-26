@@ -96,11 +96,66 @@
 
 //
 #TripToGreece {
+  position: relative;
   width: 370px;
   height: 400px;
   background-color: #ffffff;
   box-shadow: 3px 3px 3px 3px #cec9c9;
   border-radius: 15px;
+  #ongoin {
+    position: absolute;
+    right: -130px;
+    top: 220px;
+    width: 263px;
+    height: 129px;
+    box-shadow: rgba(246, 243, 243, 0.102);
+    background-color: #f8f6f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    .text-contant {
+      h6 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #84829a;
+      }
+      h4 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #84829a;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #8a79df;
+      }
+      h5 {
+        width: 156px;
+        height: 5px;
+        background-color: rgb(255, 250, 250);
+        #spann {
+          //   width: 56px;
+          //   height: 5px;
+          color: #8a79df;
+        }
+      }
+    }
+  }
   img {
     padding: 20px;
   }
