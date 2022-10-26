@@ -11,6 +11,11 @@ const Testimonials = () => {
           What People Say <br />
           about Us.
         </h1>
+        <div id="dot">
+          <div id="dot1"></div>
+          <div id="dot2"></div>
+          <div id="dot3"></div>
+        </div>
       </div>
       <div className="col-5">
         <div id="review">
@@ -26,6 +31,14 @@ const Testimonials = () => {
             <h6>Chris Thomas</h6>
             <br />
             <span>CEO of Red Button</span>
+          </div>
+          <div id="arrow">
+            <div>
+              <i class="fa-solid fa-angle-up"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
           </div>
         </div>
       </div>
