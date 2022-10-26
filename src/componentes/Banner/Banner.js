@@ -4,6 +4,8 @@ import Img from "../../images/Traveller 1 (1).png";
 import BtnImg from "../../images/rsz_11play_button-removebg-preview.png";
 import textImg from "../../images/Decoredf.png";
 import groundImg from "../../images/Group.png";
+import groundImg1 from "../../images/plane.png";
+import groundImg2 from "../../images/Ellipse 8.png";
 
 const Banner = () => {
   return (
@@ -21,11 +23,11 @@ const Banner = () => {
           </p>
           <div id="button-group">
             <button id="find-btn">Find out more</button>
-            <div>
-              <button id="ply-btn"></button>{" "}
-              <p>
-                <b>Play Demo</b>
-              </p>
+            <div id="play-btn">
+              <div className="circle">
+                <p className="triangle-left"></p>
+              </div>
+              <div></div>
             </div>
           </div>
           <div id="text-img">
@@ -39,6 +41,12 @@ const Banner = () => {
 
       <div id="groupImg">
         <img src={groundImg} alt="" />
+      </div>
+      <div id="groupImg1">
+        <img src={groundImg1} alt="" />
+      </div>
+      <div id="groupImg2">
+        <img src={groundImg2} alt="" />
       </div>
     </div>
   );
