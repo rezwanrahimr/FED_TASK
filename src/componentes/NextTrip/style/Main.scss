@@ -1,0 +1,146 @@
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+#trip {
+  display: flex;
+  align-content: center;
+  padding: 0px 80px;
+  margin: 120px 0px;
+}
+.choose {
+  display: flex;
+  align-content: center;
+  margin: 30px 0px;
+  div {
+    img {
+      margin-right: 20px;
+    }
+    h3 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      color: #5e6282;
+    }
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      color: #5e6282;
+    }
+  }
+}
+#trip-content {
+  h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #5e6282;
+  }
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #14183e;
+  }
+}
+
+//
+#TripToGreece {
+  width: 370px;
+  height: 400px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px 3px #cec9c9;
+  border-radius: 15px;
+  img {
+    padding: 20px;
+  }
+  .container {
+    padding: 0px 20px;
+    #logo-group {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    #people {
+      display: flex;
+      align-items: center;
+    }
+    h3 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      color: #080809;
+    }
+    #date {
+      display: flex;
+
+      div p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: #84829a;
+      }
+      #robbin {
+        margin-left: 15px;
+      }
+    }
+  }
+}
