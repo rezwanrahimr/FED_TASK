@@ -90,3 +90,12 @@
   right: 0%;
   top: -10%;
 }
+
+@media (max-width: 768px) {
+  #card-group {
+    flex-direction: column;
+  }
+  .service-card {
+    margin: 15px 0px;
+  }
+}

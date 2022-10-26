@@ -208,3 +208,26 @@
   right: -60px;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  #trip {
+    flex-direction: column;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  #trip-content {
+    margin-bottom: 30px;
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+    h6 {
+      text-align: center;
+    }
+  }
+  #TripToGreece {
+    margin: 50px 0px;
+    overflow: hidden;
+  }
+}

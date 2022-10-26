@@ -70,3 +70,24 @@
   bottom: -60px;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  #subscibe {
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    p {
+      font-size: 25px;
+      margin-top: 30px;
+    }
+  }
+  #subscribe-field {
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 0px;
+  }
+  #email {
+    margin: 25px 0px;
+    border: 2px solid black;
+  }
+}

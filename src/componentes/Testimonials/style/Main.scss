@@ -178,7 +178,20 @@
     border-radius: 50%;
   }
 }
-
-// #exam {
-//   z-index: 100;
-// }
+@media (max-width: 767px) {
+  .col-5 {
+    flex-direction: column;
+    width: auto;
+  }
+  .text-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  #testimonial {
+    flex-direction: column;
+  }
+  #review {
+    width: 100%;
+    overflow: hidden;
+  }
+}
