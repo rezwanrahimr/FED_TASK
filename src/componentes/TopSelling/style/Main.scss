@@ -27,10 +27,12 @@
   .card {
     /* Add shadows to create the "card" effect */
     position: relative;
+    z-index: 1;
     width: 315px;
     height: 457px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
+
     /* 5px rounded corners */
     /* Add some padding inside the card container */
 

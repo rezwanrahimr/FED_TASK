@@ -1,0 +1,144 @@
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.text-content {
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #14183e;
+  }
+  h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #5e6282;
+  }
+}
+#review {
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
+  width: 504px;
+  height: 245px;
+  box-shadow: 5px 5px 5px #e6e0e0;
+  padding: 15px;
+  #image {
+    position: absolute;
+    left: -5px;
+    top: -10px;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #5e6282;
+  }
+  span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #5e6282;
+    line-height: 0%;
+  }
+  h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #5e6282;
+    line-height: 0%;
+    margin-top: 30px;
+  }
+}
+#testimonial {
+  display: flex;
+}
+#review1 {
+  border-radius: 15px;
+  right: -60px;
+
+  position: absolute;
+  z-index: 1;
+  width: 504px;
+  height: 200px;
+  background-color: #f9f9f9;
+  box-shadow: 5px 5px 5px #f0f0f0;
+  padding: 15px;
+  span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #5e6282;
+    line-height: 0%;
+  }
+  h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #5e6282;
+    line-height: 0%;
+    margin-top: 100px;
+  }
+}
