@@ -3,6 +3,7 @@ import Main from "./Style/Main.scss";
 import Img from "../../images/Traveller 1 (1).png";
 import BtnImg from "../../images/rsz_11play_button-removebg-preview.png";
 import textImg from "../../images/Decoredf.png";
+import groundImg from "../../images/Group.png";
 
 const Banner = () => {
   return (
@@ -32,8 +33,12 @@ const Banner = () => {
           </div>
         </div>
         <div className="col-5 header-img">
-          <img src={Img} alt="" />
+          <img id="girlImg" src={Img} alt="" />
         </div>
+      </div>
+
+      <div id="groupImg">
+        <img src={groundImg} alt="" />
       </div>
     </div>
   );

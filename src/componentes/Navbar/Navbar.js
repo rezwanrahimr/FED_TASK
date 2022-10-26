@@ -2,6 +2,7 @@ import React from "react";
 import Main from "./style/Main.scss";
 import { useState } from "react";
 import Logo from "../../images/Logo (1).png";
+import backgroundImg from "../../images/Decore.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,9 @@ const Navbar = () => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="bar"></div>
+      </div>
+      <div id="backgroundImg">
+        <img src={backgroundImg} alt="" />
       </div>
     </div>
   );

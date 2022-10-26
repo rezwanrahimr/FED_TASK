@@ -34,8 +34,25 @@
 .col-12 {
   width: 100%;
 }
-
+.header-img {
+  position: relative;
+}
+#groupImg {
+  position: absolute;
+  right: 480px;
+  top: 60px;
+}
+.header-img img {
+  width: 140%;
+}
+#backgroundImg {
+  position: absolute;
+  z-index: -1;
+  top: -200px;
+  right: 0%;
+}
 .banner {
+  position: relative;
   padding: 0px 60px;
   overflow: hidden;
   #header-content {

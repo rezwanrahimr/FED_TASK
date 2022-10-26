@@ -5,6 +5,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: relative;
+}
+#backgroundImg {
+  position: absolute;
+  // right: -210px;
+  // top: -230px;
 }
 
 .Navbar > .nav-logo {
