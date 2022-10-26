@@ -10,6 +10,7 @@ import logo3 from "../../images/send.png";
 import logo4 from "../../images/building 1.png";
 import logo5 from "../../images/heart (6) 1.png";
 import logo6 from "../../images/Ellipse 7.png";
+import logo7 from "../../images/Ellipse 8d.png";
 
 const NextTrip = () => {
   return (
@@ -92,6 +93,9 @@ const NextTrip = () => {
                 <span id="spann"></span>
               </h5>
             </div>
+          </div>
+          <div id="card-background">
+            <img src={logo7} alt="" />
           </div>
         </div>
       </div>
